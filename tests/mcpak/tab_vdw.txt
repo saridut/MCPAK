@@ -1,0 +1,3 @@
+2 #Number of potentials
+BB  SC  vdw_tab_gauss.txt
+SC  SC  vdw_tab_gauss.txt

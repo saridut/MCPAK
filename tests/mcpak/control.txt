@@ -1,0 +1,31 @@
+use_mc_pvt          T
+use_mc_res_pvt      F
+use_mc_dspl         T
+use_mc_crnk         T
+use_mc_sc_pvt       F
+use_verlet_tab      F
+mcm_mxdspl          1.0
+rcutoff             2.245
+tskin               20.0
+excluded_atoms      1
+lvdw                T
+lelectrostatics     F
+
+nts_log             10
+nts_dump            100
+nts_eql             0.0D4
+nts_eql_samp        0
+block_size          1.0D1
+nblks_sim           2.0D2
+
+#fn_cfg              bb-20-4.cfg
+fn_cfg              isc-sc8-60.cfg
+fn_revive           revive.bin
+fn_stats            stats.txt
+fn_traj             traj.bin
+
+lrevive             F
+read_seed           F
+write_seed          F
+write_eql_stats     F
+write_traj          T
